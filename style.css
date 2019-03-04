@@ -1,0 +1,144 @@
+html, body {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    background: url("images/mountain.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+/*Nathan Meyer section*/
+#name a.navbar-brand {
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20px;
+  margin-left: 6px;
+  color: whitesmoke;
+  background-color: #000033;
+  text-align: center;
+  border-bottom: 1px solid #000033;
+
+}
+/* navbar section */
+a.nav-link {
+  margin: 20px 0px 0px 0px;
+  color: #000033;
+
+}
+
+/* PORTFOLIO */
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 30px 30px 30px 0px;
+    color: #000033;
+    margin-top: 20px;
+    border-bottom: 1px solid #000033;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+
+/* mid section */
+.col-md-8 {
+    margin-top: 30px;
+    background-color: whitesmoke;
+    opacity: 0.9;
+    border-style: 1px solid #000033;
+    
+}
+
+/* nathanportait */
+img {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+/* paragraph section */
+p {
+    padding-top: 20px;
+    padding-left: 30px;
+    margin: 0;
+    overflow: auto;
+}  
+
+/* contact form */
+#contact-form ul {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form li {
+    margin-bottom: 10px;
+  }
+  
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+    display: block;
+    width: 100%;
+  }
+  input[type=text],
+  input[type=email],
+  textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #dddddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  margin-left: 30px;
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+  background: #000033;
+  border: 0 none;
+}
+
+/* portfolio section */
+.column {
+  position: relative;
+  overflow: auto;
+  
+}
+/* text with blue banner section */
+.column h3 {
+  position: abolute;
+  margin-left: 30px;
+  background: #000033;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.text-content {
+  margin-bottom: 15px;
+}
+/* footer section */
+
+.content {
+  min-height: 35%;
+}
+  .content-inside {
+  padding: 20px;
+  padding-bottom: 30px;
+}
+  .footer {
+  height: 30px;
+  border-top: 8px solid #000033;
+  background-color: #708090;
+  padding: 20px;
+  text-align: center;
+  font-size: 13px;
+  clear: both;
+  
+}
