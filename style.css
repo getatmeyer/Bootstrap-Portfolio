@@ -14,7 +14,7 @@ html, body {
   font-size: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 20px;
-  margin-left: 6px;
+  margin-left: 27px;
   color: whitesmoke;
   background-color: #000033;
   text-align: center;
@@ -48,15 +48,21 @@ h1 {
     border-style: 1px solid #000033;
     
 }
+/* natportfolio image */
+.natportfolio {
+    float: left;
+    
+}
 
-/* nathanportait */
+/* portfolio images */
 img {
   margin-top: 20px;
   margin-left: 30px;
 }
 
 /* paragraph section */
-p {
+p { 
+    /* float: right; */
     padding-top: 20px;
     padding-left: 30px;
     margin: 0;
