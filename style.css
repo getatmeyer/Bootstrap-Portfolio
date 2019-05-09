@@ -78,31 +78,36 @@ h1 {
 .col-md-8 {
     margin-top: 30px;
     background-color: whitesmoke;
-    opacity: 0.9;
+    /* opacity: 0.9; */
     border-style: 1px solid #000033;
     
 }
 /* natportfolio image */
 .natportfolio {
     float: left;
-    
-}
 
+}
 /* portfolio images */
 img {
   margin-top: 20px;
   margin-left: 30px;
+  display: block;
 }
-
+row {
+  display: inline-block;
+}
 /* paragraph section */
 p { 
     /* float: right; */
     padding-top: 20px;
     padding-left: 30px;
     margin: 0;
-    overflow: auto;
+    width: 700px;
+    
 }  
-
+#text {
+  width: 790px;
+}
 /* contact form */
 #contact-form ul {
     margin-bottom: 20px;
@@ -182,3 +187,12 @@ input[type=submit] {
   clear: both;
   
 }
+.fab {
+  font-size: 34px;
+  color:#000033;
+  margin-left: 20px;
+  margin-top: 20px;
+  
+}
+
+          
